@@ -1,3 +1,15 @@
-import React from "react"
+import React from 'react'
+import Layout from "../componants/Layout"
 
-export default () => <div>Hello world!</div>
+
+const IndexPage = () => (
+  <Layout>
+      <div>
+        <h1>Hi All </h1>
+        <h1>This Is The Home Page</h1>
+        <p>Need Google<a href="https://www.google.com/" target="_blank"> Google </a></p>
+      </div>
+  </Layout>
+
+  )
+export default IndexPage;

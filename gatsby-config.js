@@ -5,5 +5,24 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  //it shows meta data
+
+  siteMetadata: {
+    title: "Arjun More's site!",
+    footer: "vatan more",
+  },
+
+  plugins: [
+    // plugin for sass stylesheet
+    "gatsby-plugin-sass",
+    {
+      //it shows local files posts placed in 'posts' folder
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }
