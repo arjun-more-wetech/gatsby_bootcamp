@@ -7,7 +7,7 @@ const IndexPage = () => (
       <div>
         <h1>Hi All </h1>
         <h1>This Is The Home Page</h1>
-        <p>Need Google<a href="https://www.google.com/" target="_blank"> Google </a></p>
+        <p>Need Google<a rel="noopener noreferrer" href="https://www.google.com/" target="_blank"> Google </a></p>
       </div>
   </Layout>
 

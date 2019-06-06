@@ -1,0 +1,3 @@
+generate a slug(a file name of post) for each post
+
+generate blog templete
